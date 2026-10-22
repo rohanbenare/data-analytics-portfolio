@@ -23,7 +23,13 @@ In behavioral interviews, use this 6-phase framework to structure answers when a
 [Ask] ──> [Prepare] ──> [Process] ──> [Analyze] ──> [Share] ──> [Act]
 ```
 
-##Framework BreakdownAsk: Define the business problem, clarify objectives, understand stakeholder expectations, and establish measurable metrics (KPIs).Prepare: Identify data sources, evaluate data integrity and metadata, ensure compliance with data privacy regulations (PII, GDPR), and store data securely.Process: Clean dirty data, handle missing or duplicate values, fix formatting inconsistencies, and ensure overall data integrity.Analyze: Organize and transform data using sorting, filtering, aggregating, and joining to uncover trends and patterns.Share: Design interactive dashboards, charts, and executive presentations tailored to technical and non-technical stakeholders.Act: Translate analytical insights into concrete recommendations and support business leadership in decision implementation.
+## Framework Breakdown
+* Ask: Define the business problem, clarify objectives, understand stakeholder expectations, and establish measurable metrics (KPIs).
+* Prepare: Identify data sources, evaluate data integrity and metadata, ensure compliance with data privacy regulations (PII, GDPR), and store data securely.
+* Process: Clean dirty data, handle missing or duplicate values, fix formatting inconsistencies, and ensure overall data integrity.
+* Analyze: Organize and transform data using sorting, filtering, aggregating, and joining to uncover trends and patterns.
+* Share: Design interactive dashboards, charts, and executive presentations tailored to technical and non-technical stakeholders.
+* Act: Translate analytical insights into concrete recommendations and support business leadership in decision implementation.
 
 ## 3. Data Ecosystem & Analytical Thinking Skills
 Five Key Mindsets of Analytical ThinkingVisualization: 
