@@ -37,6 +37,7 @@ Translating complex data into clear graphical representations.Strategy: Aligning
 
 ## 4. Interview Practice Scenarios & Answer Frameworks
 Scenario A: "How do you explain technical findings to non-technical stakeholders?"Answer Framework:"I focus on the business impact rather than technical mechanics. I begin with the high-level takeaway or executive recommendation, support it with 1–2 key visual charts, and keep raw query details or technical methodologies in the appendix. I always translate metrics into business metrics (e.g., revenue, operational efficiency, customer retention)."
+---
 Scenario B: "How do you handle incomplete or dirty data?"Answer Framework:"During the Process phase, I perform exploratory checks to identify missing values, duplicates, or formatting anomalies. For missing data, depending on the context, I evaluate whether to impute values, filter out incomplete rows without introducing bias, or flag the missing entries to business stakeholders. Documenting every cleaning step in code or audit logs ensures reproducibility."
 
 ## 5. Foundations Glossary & Key TermsStructured Data: 
