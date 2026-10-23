@@ -96,3 +96,21 @@ Root cause: The reason why a problem occurs
 Technical mindset: The ability to break things down into smaller steps or pieces and work with them in an orderly and logical way
 
 Visualization: (Refer to data visualization) 
+
+---
+
+## There are six stages to the data life cycle. Here's a recap:
+
+* Plan: Decide what kind of data is needed, how it will be managed, and who will be responsible for it.
+
+* Capture: Collect or bring in data from a variety of different sources.
+
+* Manage: Care for and maintain the data. This includes determining how and where it is stored and the tools used to do so.
+
+* Analyze: Use the data to solve problems, make decisions, and support business goals.
+
+* Archive: Keep relevant data stored for long-term and future reference.
+
+* Destroy: Remove data from storage and delete any shared copies of the data.
+
+### Note: Be careful not to confuse the six stages of the data life cycle (plan, capture, manage, analyze, archive, and destroy) with the six phases of the data analysis process (ask, prepare, process, analyze, share, and act). They are not interchangeable.
