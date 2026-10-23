@@ -57,3 +57,21 @@ You don’t have to choose one or the other because each serves its own purpose.
 Key takeaways
 The choice of data analysis tools depends on the specific task at hand. Spreadsheets are suitable for organizing, cleaning, and analyzing small to medium datasets. Databases are ideal for storing, managing, and analyzing large and complex datasets. Data analysts often use a combination of spreadsheets, databases, and programming languages to effectively handle a wide range of data analysis tasks.
  
+### Terms and definitions for Course 1, Module 2
+* Database: A collection of data stored in a computer system
+
+* Formula: A set of instructions used to perform a calculation using the data in a spreadsheet
+
+* Function: A preset command that automatically performs a specified process or task using the data in a spreadsheet
+
+* Query: A request for data or information from a database
+
+* Query language: A computer programming language used to communicate with a database
+
+* Stakeholders: People who invest time and resources into a project and are interested in its outcome
+
+* Structured Query Language: A computer programming language used to communicate with a database
+
+* Spreadsheet: A digital worksheet
+
+* SQL: (Refer to Structured Query Language)
