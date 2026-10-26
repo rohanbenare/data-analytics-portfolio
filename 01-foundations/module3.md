@@ -43,8 +43,7 @@ A SQL query is like filling in a template. You will find that if you are writing
 Next, enter the table name after the FROM; the table columns you want after the SELECT; and, finally, the conditions you want to place on your query after the WHERE. Make sure to add a new line and indent when adding these, as shown below:
 
 | SELECT | FROM | WHERE |
-| --- | --- | --- |
-
-| Specifies the columns from which to retrieve data | Specifies the table from which to retrieve data | Specifies criteria that the data must meet |
+| :--- | :--- | :--- |
+| Specifies the columns from which to retrieve data. | Specifies the table from which to retrieve data. | Specifies criteria that the data must meet. |
 
 Following this method each time makes it easier to write SQL queries. It can also help you make fewer syntax errors.
