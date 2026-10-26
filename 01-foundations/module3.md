@@ -47,3 +47,95 @@ Next, enter the table name after the FROM; the table columns you want after the 
 | Specifies the columns from which to retrieve data. | Specifies the table from which to retrieve data. | Specifies criteria that the data must meet. |
 
 Following this method each time makes it easier to write SQL queries. It can also help you make fewer syntax errors.
+
+## Example of a query
+Here is how a simple query would appear in BigQuery, a data warehouse on the Google Cloud Platform.
+SELECT first_name
+FROM customer_data.customer_name
+WHERE first_name = 'Tony'
+
+The above query uses three commands to locate customers with the first_name, 'Tony':
+
+SELECT the column named first_name
+
+FROM a table named customer_name (in a dataset named customer_data)
+(The dataset name is always followed by a dot, and then the table name.)
+
+But only return the data WHERE the first_name is 'Tony'
+
+### Multiple columns in a query
+Of course, as a data professional, you will need to work with more data beyond customers named Tony. Multiple columns that are chosen by the same SELECT command can be indented and grouped together.
+
+If you are requesting multiple data fields from a table, you need to include these columns in your SELECT command. Each column is separated by a comma as shown below:
+*** SELECT
+	ColumnA,
+	ColumnB,
+	ColumnC
+FROM
+	Table where the data lives
+WHERE
+	Certain condition is met
+***
+
+Here is an example of how it would appear in BigQuery:
+*** SELECT
+	customer_id,
+	first_name,
+	last_name
+FROM
+	customer_data.customer_name
+WHERE
+	first_name = 'Tony'
+*** 
+
+The above query uses three commands to locate customers with the first_name, 'Tony'.
+
+SELECT the columns named customer_id, first_name, and last_name
+
+FROM a table named customer_name (in a dataset named customer_data)
+(The dataset name is always followed by a dot, and then the table name.)
+
+But only return the data WHERE the first_name is 'Tony'
+
+The only difference between this query and the previous one is that more data columns are selected. The previous query selected first_name only while this query selects customer_id and last_name in addition to first_name. In general, it is a more efficient use of resources to select only the columns that you need. For example, it makes sense to select more columns if you will actually use the additional fields in your WHERE clause. If you have multiple conditions in your WHERE clause, they may be written like this:
+***
+SELECT
+ColumnA,
+ColumnB,
+ColumnC
+FROM
+	Table where the data lives
+WHERE
+	Condition 1
+	AND Condition 2
+	AND Condition 3
+***
+Notice that unlike the SELECT command that uses a comma to separate fields / variables / parameters, the WHERE command uses the AND statement to connect conditions. As you become a more advanced writer of queries, you will make use of other connectors / operators such as OR and NOT. 
+
+Here is a BigQuery example with multiple fields used in a WHERE clause:
+
+SELECT
+	customer_id,
+	first_name,
+	last_name
+FROM
+	customer_data.customer_name
+WHERE
+	customer_id > 0
+	AND first_name = 'Tony'
+	AND last_name = 'Magnolia'
+
+The above query uses three commands to locate customers with a valid (greater than 0), customer_id whose first_name is 'Tony' and last_name is 'Magnolia'.
+
+SELECT the columns named customer_id, first_name, and last_name
+
+FROM a table named customer_name (in a dataset named customer_data)
+(The dataset name is always followed by a dot, and then the table name.)
+
+But only return the data WHERE customer_id is greater than 0, first_name is Tony, and last_name is Magnolia.
+
+Note that one of the conditions is a logical condition that checks to see if customer_id is greater than zero.
+
+### [SQL cheet sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
+### [W3 schools](https://www.w3schools.com/sql/default.asp)
+### [Python graph gallery](https://python-graph-gallery.com/)
