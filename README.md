@@ -1,6 +1,6 @@
 # Data Analytics Portfolio & Knowledge Hub
 
-Welcome to my data analytics repository! This space serves as a public portfolio and documentation hub as I progress through the **Google Data Analytics Professional Certificate** and build end-to-end analytics projects.
+Welcome to my data analytics repository! This space serves as a public portfolio and documentation hub as I progress through the **Google Data Analytics Professional Certificate** and build end-to-end analytics projects. A curated reference guide and technical notes on data analytics foundations, structured to bridge technical definitions with practical business applications.
 
 ---
 
